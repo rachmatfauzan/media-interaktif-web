@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminTFME</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <!-- CDN Fontawesome 4.7 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/polibatam.png">
+</head>
+
+<body>
+
+    <nav>
+        <div class="kiri">
+            <h2>AdminTFME</h2>
+        </div>
+        <div class="title">
+            <p>Selamat Datang Admin</p>
+        </div>
+        <div class="kanan">
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="index.html" class="btn active"><button><i class="fa fa-address-book fa-sm" aria-hidden="true"></i>Daftar
+                Pengguna</button></a>
+            <a href="tambahAdmin.html" class="btn"><button><i class="fa fa-plus" aria-hidden="true"></i> Tambah Admin</button></a>
+        </div>
+        <div class="konten">
+            <h4>Daftar Pengguna</h4>
+            <form action="" method="post">
+                <input type="text" name="keyword" size="40" placeholder="Cari..." autocomplete="off">
+                <button type="submit" name="cari">Cari</button>
+            </form>
+            <table>
+                <tr>
+                    <th>NO</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Jurusan</th>
+                    <th>Email</th>
+                    <th>Aksi</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Rachmat</td>
+                    <td>3311801036</td>
+                    <td>Teknik Informatika</td>
+                    <td>rachmatfauzan07@gmail.com</td>
+                    <td style="text-align:center ;">
+                        <a href="">Ubah |</a>
+                        <a href="">Hapus |</a>
+                        <a href="">Detail</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Rachmat</td>
+                    <td>3311801036</td>
+                    <td>Teknik Informatika</td>
+                    <td>rachmatfauzan07@gmail.com</td>
+                    <td style="text-align:center ;">
+                        <a href="ubah.html">Ubah |</a>
+                        <a href="">Hapus |</a>
+                        <a href="detail.html">Detail</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

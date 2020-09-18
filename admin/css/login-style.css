@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.bungkus {
+    width: 100%px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    display: flex;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=text],
+input[type=email],
+input[type=password] {
+    outline: 0;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 40px
+}
+
+btn label {
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+.btn button{
+    color: white;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    width: 80%;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn button:hover{
+    opacity: 0.6;
+    background-color:rgb(255, 72, 0) ;
+}
+/* Responsive Mobile */
+@media screen and (max-width:576px){
+    .container{
+        width: 70%;
+    }
+}

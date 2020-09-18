@@ -1,0 +1,42 @@
+section .konten{
+    border-radius: 10px;
+    width: 60%;
+}
+form {
+    padding: 20px;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    box-shadow: 9px 8px 10px 0px rgba(0,0,0,0.12);
+}
+footer{
+    flex-direction: column;
+   width: 80%;
+   margin: auto;
+}
+/* Show Eye Password */
+.col-75{
+    position: relative;
+}
+.col-75 i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-25px, 12px);
+    color: #999;
+    cursor: pointer;
+}
+.col-75 i.active {
+    color: rgb(255, 72, 0);
+}
+/* End css Of show eye password */
+@media screen and (max-width:576px){
+    footer table{
+        width: 300px;
+    }
+}
