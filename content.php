@@ -42,6 +42,7 @@ if (isset($_POST['logout'])){
 </head>
 
 <body>
+    <!-- awal bagian header -->
     <div class="logo">
         <div class="container">
             <img src="images/TFME.jpg" alt="">
@@ -53,6 +54,7 @@ if (isset($_POST['logout'])){
             </form>
         </div>
     </div>
+    <!-- akhir bagian header -->
 
     <embed src="swf/Acs3.swf" type="" width="100%" height="800px">
     <div class="notice">
