@@ -9,9 +9,10 @@
     background-size: cover;
     z-index: -9999;
     filter: brightness(50%);
+    background-position: center;
     width: 100%;
     position: absolute;
-    height: 979px;
+    height: 100vh;
 }
 
 .setir{
@@ -53,7 +54,7 @@
     text-decoration: none;
     transition: .3s ease-out;
     width: 160px;
-    font-size: 17px;
+    font-size: 15px;
     height: 60px;
     text-align: center;
     border-radius: 20px;
