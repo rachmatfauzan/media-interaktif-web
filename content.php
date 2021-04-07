@@ -66,7 +66,7 @@ if (isset($_POST['logout'])){
         <center><p>Notice! You can learn by clicking the content menu</p></center> 
     </div>
 
-    <div class="error">
+    <div class="error d-none">
             <h1>Open with PC!</h1>
     </div>
 
