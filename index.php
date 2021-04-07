@@ -63,6 +63,7 @@ if (isset($_POST["login"])){
     <link rel="icon" href="images/TFME.jpg">
     <link rel="stylesheet" href="css/new-style.css">
     <!-- CDN Fontawesome 4.7 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </title>
 </head>
@@ -236,6 +237,11 @@ if (isset($_POST["login"])){
                 <button type="submit" name="register">Register</button>
             </div>
         </form>
+    </div>
+
+    <div class="judul">
+        <h1>Teaching Factory Manufacturing of Electronics</h1>
+        <h2>Interactive Learning Media</h2>
     </div>
     <script>
         // Get the modal

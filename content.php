@@ -55,8 +55,12 @@ if (isset($_POST['logout'])){
         </div>
     </div>
     <!-- akhir bagian header -->
-
-    <embed src="swf/Acs3.swf" type="" width="100%" height="800px">
+    <div class="media">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="swf/2.swf" quality="high" wmode="transparent" width="100%" height="100%">
+        <!-- <iframe src="https://polnebat-my.sharepoint.com/personal/rachmat3311801036_students_polibatam_ac_id/_layouts/15/Doc.aspx?sourcedoc={151318bb-aa24-49e4-bd0a-f5b9acd87026}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">Ini adalah Presentasi <a target="_blank" href="https://office.com">Microsoft Office</a> yang disematkan, didukung oleh <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe> -->
+    </div>
     <div class="notice">
         <center><p>Notice! You can learn by clicking the content menu</p></center> 
     </div>
@@ -77,6 +81,7 @@ if (isset($_POST['logout'])){
             <div class="sosmed">
                 <a href="https://www.instagram.com/tfme_polibatam/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                <a href="https://www.instagram.com/tfme_polibatam/"target="_blank">Instagram</a>
+               <a href="https://drive.google.com/drive/folders/1PrMkFPZXzGRHs7SkGOthFlfUh_DMvIaD?usp=sharing" style="margin-top:3px;"  target="_blank"><i class="fa fa-wrench" aria-hidden="true" style="font-size: 12px; margin-right:5px; display: inline;"></i>Repair Plug-in</a>
             </div>
             <div class="copyright">
                 <p>&copy; 2020 TFME Polibatam  &bull; All Reserved</p>

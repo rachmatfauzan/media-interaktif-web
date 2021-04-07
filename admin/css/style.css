@@ -100,12 +100,13 @@ nav .kanan a:hover {
 }
 
 .container div.konten {
+    width: 40%;
     margin: 30px 30px 10px 30px;
     flex: 1;
 }
 
 .konten h4 {
-    font-size: 34px;
+    font-size: 26px;
     margin: 10px 0 40px 0;
 }
 
@@ -145,7 +146,9 @@ button:focus{
     border: 1px solid #ddd;
     padding: 8px;
 }
-
+table{
+    width: 40px;
+}
 table td,
 table th {
     border: 1px solid #ddd;

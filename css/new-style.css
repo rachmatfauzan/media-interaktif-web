@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .filter {
@@ -9,10 +12,9 @@
     background-size: cover;
     z-index: -9999;
     filter: brightness(50%);
-    background-position: center;
     width: 100%;
     position: absolute;
-    height: 100vh;
+    height: 979px;
 }
 
 .setir{
@@ -54,7 +56,7 @@
     text-decoration: none;
     transition: .3s ease-out;
     width: 160px;
-    font-size: 15px;
+    font-size: 17px;
     height: 60px;
     text-align: center;
     border-radius: 20px;
@@ -204,6 +206,35 @@ button:hover {
 
 .modal-content h3 {
     margin-bottom: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+.judul{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translate(0, 15em);
+    color: white;
+}
+.judul h1{
+    word-spacing: 10px;
+    animation: ketikan 5s steps(10000) infinite;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Long Cang', cursive;
+}
+
+@keyframes ketikan{
+    0%{
+        width: 10ch;
+    }
+    100%{
+        width: 100%;
+    }
 }
 
 .close {
