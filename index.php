@@ -242,6 +242,7 @@ if (isset($_POST["login"])){
     <div class="judul">
         <h1>Teaching Factory Manufacturing of Electronics</h1>
         <h2>Interactive Learning Media</h2>
+        <a href="https://drive.google.com/drive/folders/1PrMkFPZXzGRHs7SkGOthFlfUh_DMvIaD?usp=sharing" style="margin-top:3px;"  target="_blank"><i class="fa fa-wrench" aria-hidden="true" style="font-size: 12px; margin-right:5px; display: inline;"></i>Repair Plug-in</a>
     </div>
     <script>
         // Get the modal
