@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    cursor: copy;
+}
+.container{
+    margin-top: 5em;
+}

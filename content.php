@@ -50,6 +50,7 @@ if (isset($_POST['logout'])){
         <div class="profile">
             <p style="cursor: none;"><?= $_SESSION["mhs"]["nama"]; ?></p> 
             <form action="" method="post">
+                <a href="contact.php" class="contact">Contact us</a>
                 <a onclick="return confirm('Are You Sure to Logout ?')"><button name="logout">Logout</button></a>
             </form>
         </div>

@@ -61,7 +61,7 @@ a, button{
     transform: translate(200px,-25px);
 }
 
-.profile button:hover {
+.profile button:hover, a:hover {
     color: rgb(255, 72, 0);
 }
 .media {
@@ -168,6 +168,7 @@ footer .copyright p {
 div.error{
     display: none;
 }
+
 
 /* ukuran mobile */
 @media screen and (max-width:576px) {
