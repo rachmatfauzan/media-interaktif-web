@@ -165,6 +165,9 @@ footer .copyright p {
     opacity: 0.8;
 
 }
+div.error{
+    display: none;
+}
 
 /* ukuran mobile */
 @media screen and (max-width:576px) {
@@ -183,6 +186,19 @@ footer .copyright p {
     .logo {
         height: 170px;
     }
+
+    .media, .notice, .isi, .logo{
+        display: none;
+    }
+    div.error{
+        display:flex;
+        height: 100vh;
+        transform: translate(20%,0);
+        justify-content: center;
+        flex-direction: column;
+        color:burlywood
+    }
+    
 
 }
 
