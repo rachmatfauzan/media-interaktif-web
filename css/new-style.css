@@ -227,7 +227,9 @@ button:hover {
     white-space: nowrap;
     font-family: 'Long Cang', cursive;
 }
-
+.judul a:hover{
+    color: #ffeb3c;
+}
 @keyframes ketikan{
     0%{
         width: 10ch;
