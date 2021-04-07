@@ -5,6 +5,17 @@ body{
     background-color: black;
     cursor: copy;
 }
+.navbar label{
+    transform: translate(-35em,0);
+}
 .container{
     margin-top: 5em;
+}
+
+/* Ukuran tablet */
+@media screen and (max-width: 1200px) {
+   .navbar label{
+       transform: unset;
+   }
+
 }
